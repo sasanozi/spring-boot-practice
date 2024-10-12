@@ -14,6 +14,11 @@ public class Sample1appApplication {
     return "Hello World2525";
   }
 
+  @RequestMapping("/test")
+  public String リクエストしたい内容にあったメソッド名() {
+    return "test ok";
+  }
+
   public static void main(String[] args) {
     SpringApplication.run(Sample1appApplication.class, args);
   }
