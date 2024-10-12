@@ -15,7 +15,7 @@ public class Sample1appApplication {
   }
 
   @RequestMapping("/test")
-  public String リクエストしたい内容にあったメソッド名() {
+  public String requestTest() {
     return "test ok";
   }
 
